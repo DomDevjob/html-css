@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: center; 
+    font-size: 1.6em;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+b,strong,i,em,mark,big,small,del,ins,u,sup,sub{
+    border: 0.16em dotted red;
+    padding: 0.1em;
+    
+}

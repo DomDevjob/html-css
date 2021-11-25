@@ -1,0 +1,109 @@
+@charset "utf-8"
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+h1 {
+    color: rgb(185, 57, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: rgb(196, 190, 191) 1px 2px 40px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url('imagens/1b16195c16916358b85f6840b19bd400_400x400.png');
+    background-size: 34px;
+    width: 100%;
+}
+
+img {
+    border: 3px rgb(218, 164, 164) solid;
+    border-radius: 9px;
+    margin: 2px 2px;
+    filter: brightness(40%);
+}
+
+img:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: #ccc 1px 1px 10px 5px ;
+    transform: scale(1.01,1.01);
+    filter: brightness(100%);
+}
+
+p {
+    text-align: center;
+    color: wheat;
+    font-size: 1.3em;
+    
+}
+
+p a{
+    font-size: 1.6em;
+    color: white;
+    text-decoration: none;
+    border: px rgb(250, 53, 53) solid;
+    box-shadow: 1px 2px 4px 1px rgb(116, 209, 98);
+    border-radius: 9px;
+    margin: 2px 2px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(10, 53, 10);
+}
+
+p a:hover {
+    color:white ;
+    background-color: green;
+    transition: 0.28s ease-in;
+}
+
+
+iframe {
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+video {
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: rgb(86, 160, 86) 1px 1px 1px 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0,0.85);
+}
+
+video:hover {
+    box-shadow: white 1px 3px 15px 5px;
+    transition: 0.4s ease-out;
+}
+
+.voltar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border: px solid red;
+}
+
+.voltar:hover {
+    transition: none;
+    box-shadow: none;
+}

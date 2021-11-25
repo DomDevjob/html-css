@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(170, 73, 90);
+    height: 100%;
+}
+
+h1,p {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(158, 158, 136);
+    color: bisque;
+    text-shadow: 5px 1px 5px black ;
+}
+
+picture img {
+    margin:10px 0px 10px 0px;
+    box-shadow: black 3px 3px 10px;
+}
+ 

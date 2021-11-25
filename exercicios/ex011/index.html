@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="exercicios/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes</p>
+    <!--varias fontes de imagem-->
+    <!--bounce rate = taxa de rejeição-->
+   <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+   </picture>
+
+   <h1>Outro Exemplo</h1>
+   <p>Veja a diferença</p>
+   <picture>
+       <source media="(max-width: 750px )" srcset="imagens/belladasemana-450.jpg" type="image/jpg ">
+
+       <source media="(max-width: 1050px )" srcset="imagens/belladasemana-700.jpg" type="image/jpg">
+
+       <img src="imagens/belladasemana-1000.jpg" alt="imagem flexivel">
+   </picture>
+
+   <h1>Reproduzindo aúdio</h1>
+   <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+        <!--MP3 WAV OGG(Compatibilidade)-->
+        <!--
+        <audio src="midia/beyond.mp3" autoplay controls></audio>
+        -->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/beyond.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wave" type="audio/wave">
+        <p>Infelizmente seu navegador não consegue reproduzir o aúdio <a href="midia/guanacast-33.mp3">Clique aqui para fazer o download do aúdio</a></p>
+    </audio>
+</body>
+</html>

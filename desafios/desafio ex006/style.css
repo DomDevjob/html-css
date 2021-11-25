@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.3em;
+    text-align: justify;
+    
+}
+
+li {
+    list-style-position: inside;
+    margin-left: 1em;
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 0.2em 0px 0px 1em;
+    color: rgb(68, 66, 66);
+}
+
+li::before {
+    content: url('tags.jpg'); 
+    color: blue;
+    width: 10px;
+}
+
+abbr:hover{
+    color: blue;
+    transition: 0.38s ease-out;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(198, 196, 218);
+    border-radius: 4px;
+    padding: 0.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p:nth-of-type(2) {
+   max-width: 900px;
+   margin: 1em auto;
+}
+

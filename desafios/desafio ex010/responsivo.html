@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body {
+            background-color: #ccc;
+            text-align: center;
+        }
+
+        main {
+            background-color: rgb(169, 124, 124);
+            padding: 20px;
+            border-radius: 10px;
+
+        
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        picture {
+            transition: ease-in 1s;
+            
+        }
+
+        img {
+            min-width: 10%;
+            max-width: 100%;
+            width: 100%;
+            margin-top: 10px;
+            box-shadow: 3px 3px 15px 2px rgba(255, 255, 255, 0.523);
+            border-radius: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium molestiae nam doloribus qui. Atque cum quos optio cumque repudiandae explicabo debitis, totam alias, reiciendis sint saepe sit eveniet adipisci dolorum?
+            <picture>
+                <source media="(max-width: 650px)" srcset="imagens/irina-blok-pq.jpg">
+                <img src="imagens/irina-blok.jpg" alt="irina-block">
+            </picture>
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, at distinctio quo, totam est sint, perspiciatis veniam ipsum saepe vero autem iure! Suscipit placeat, doloribus cum minus unde enim eligendi?
+        </p>
+    </main>
+</body>
+</html>

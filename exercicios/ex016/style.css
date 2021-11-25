@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    height: 100%;
+    background-image: linear-gradient(to bottom,#F3DDC3,#DEA57C,#011826 70%);
+    background-attachment: fixed;
+    
+}
+
+header {
+    height: 200px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.fundo {
+    background-image:url('mountains3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+main {
+    background-color: rgba(142, 177, 191, 0.856);
+    border-radius: 10px;
+    box-shadow: #010b11a1 1px 1px 10px 2px;
+    width: 60%;
+    padding: 2px;
+    margin:  auto;
+}
+
+h1 {
+    color: #011826;
+    text-align: center;
+    text-shadow: 1px 1px 2px #70533fa8;
+    font-size: 2.4em;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+h2 {
+    color:#56738C ;
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+    color: #F3DDC3;
+    text-shadow: 1px 1px 2px #70533fa8;
+    margin: 10px 15px;
+}
+
+footer {
+    height: 100px;
+    background-color: #010f18;
+    padding: 20px;
+    text-align: justify;
+}
+
+span {
+    color: #F3DDC3;
+    text-align: justify;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

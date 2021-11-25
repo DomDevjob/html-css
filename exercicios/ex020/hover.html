@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*parágrafo filho da div*/
+        div > ul {
+            display: none;
+        }
+
+        div:hover > ul {
+            display: block;
+            color: white;
+            background-color: #ccc;
+            list-style: none;
+            text-align: justify;
+            background-image: url('young-1822656_640.jpg');
+            background-position: center center ;
+            background-size: cover;
+            height: 250px;
+        }
+
+        li {
+            margin-top: 1.2em;
+        }
+
+        li a{
+            text-decoration: none;
+            color: yellow;
+            text-align: center;
+            transition: 0.4s ease-in-out;
+        }
+
+        li a:hover {
+            color: white;
+            transition: 0.4s ease-in-out;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+
+        div:hover {
+            cursor:pointer;
+            color: red;
+            transition: 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui!!!
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Itens</a></li>
+            <li><a href="">sobre</a></li>
+            <li><a href="">localização</a></li>
+        </ul>
+    </div>
+    <p>fim do exemplo!!!</p>
+</body>
+</html>

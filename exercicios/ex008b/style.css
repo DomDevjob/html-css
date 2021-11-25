@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+    text-align: center; 
+    font-size: 1.4em;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 1.1345em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b,strong,i,em,
+mark,big,small,del,
+ins,u,sup,sub,
+code,pre,q,blockquote,
+abbr,bdo{
+    border: 0.16em dotted red;
+    padding: 0.1em;
+    background-color: rgb(204, 242, 245);
+}

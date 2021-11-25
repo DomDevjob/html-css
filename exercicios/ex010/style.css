@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    background-color: burlywood;
+    margin-left: ;
+    background-image: url('../fundo-branco-textura-elegante_23-2148445782.webp');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+   padding: 1em;
+   color:rgb(13, 43, 13);
+}
+
+.downloads {
+    background-color: ;
+    list-style: inside;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    padding: 0.3em;
+    
+}
+
+a {
+    background-color:rgb(102, 187, 102) ;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 0.89em;
+}
+
+a:hover {
+    padding: 0.234em;
+    transition: 0.5s ease;
+    font-size: 1.1em;
+    background-color: green;
+    border-radius: 8px;
+    border: white 3px solid;
+    color: white;
+    box-shadow: 1px 3px 15px 2px rgb(102, 187, 102);
+}

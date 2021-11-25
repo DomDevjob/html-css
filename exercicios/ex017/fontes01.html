@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        body {
+            /*Arial, Helvetica, sans-serif font safe combination*/
+            /*serif , non serif, monospace genericos no final*/
+            font-family: 'work san',Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas/*
+            /*
+            cm(relativa ao taamnho do corpo da fonte),
+            mm,(milimetros)
+            in(polegadas),
+            px,(pixels)
+            pt(pontos,papel,wordpad,word),
+            pc(paca,papel,impressora)
+            */
+            /************************/
+
+            /*Medidas Relativas*/
+            /*
+            em, (16px = 1em)
+            ex(tamanho x da letra), 
+            rem(tamanho padrão da fonte do body), 
+            vw, 
+            vh, 
+            %
+            */
+            /*************************/
+            font-size:1em ;
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: underline;
+            /*peso literal = lighter normal bold bolder ou numérica*/
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h1 {
+            font-family: 'work-sans';
+            font-weight: bolder;
+            font-size:3em;
+            font-style: italic;
+            /* shorthand font
+            ordem 
+            -> Font-style 
+            -> font-weight 
+            -> font-size 
+            -> font-family */
+            font: italic bolder 3em 'work-sans';
+           }
+        
+        h2 {
+            font: bold 2em 'work-sans';
+        }
+    </style>
+</head>
+<body >
+    <div class="logo">
+        <h1>Trabalhando com fontes</h1> <img src="image/flooop.png" alt="floop" width="100px" height="120px">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, tempora autem. Voluptatum aliquid sint atque, odit deleniti iusto unde fugiat molestias earum vel suscipit! Minima accusantium saepe reiciendis! Animi, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, aliquid aut! Illo ad cum, eligendi molestiae delectus dicta molestias temporibus? Ducimus beatae, atque architecto dicta nihil earum animi maxime eaque.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum exercitationem quod assumenda tempore unde, sequi error, vero ipsam voluptatem doloremque mollitia molestiae! Facilis expedita sequi deserunt et eos hic?</p>
+    <h2>Subtitulo do exercicio  lorem</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, modi incidunt consequatur ad debitis fugit mollitia libero, dignissimos veritatis nostrum ipsum? Vero, dolore exercitationem atque eius dignissimos inventore sapiente delectus?</p>
+</body>
+</html>
