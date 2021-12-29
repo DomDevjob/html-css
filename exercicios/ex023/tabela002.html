@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+           width: 500px; 
+           border-collapse: collapse;
+           position: relative;
+           margin: auto;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+           font-size:1.5em ; 
+           font-weight: bold;
+           padding: 10px;
+           background-color: green;
+           color: white;
+        }
+
+        thead , tfoot{
+            background-color: green;
+            color: white;
+            background-color: lightgray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(133, 22, 22);
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(0, 0, 255, 0.235);
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgba(255, 255, 0, 0.331);
+            text-decoration: underline;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes!!!
+        table
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População da Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas G.</td>
+                <td class="num">21.019.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">5.919.049</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">23.619.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">15.919.049</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="num">
+                    <strong>210.147.125</strong>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facilis! Odit, illo ex officiis quia nulla commodi consequatur quae sapiente nihil quis amet nobis saepe praesentium voluptatibus repellat quod quidem?
+        Officiis, id! Pariatur asperiores debitis tempore iste, amet officia numquam dolorem, corrupti repellat eius neque, commodi ducimus? Sequi cum ipsa ducimus, id, nisi velit odit iure porro nam culpa fuga!
+        Cupiditate deleniti voluptatem quos, nesciunt vel nulla optio, est accusamus ducimus ex voluptas libero aliquam eius quod iusto laudantium quidem distinctio molestiae impedit reiciendis illum similique sit eos! At, sapiente!
+        At perferendis repudiandae quasi ullam numquam sequi. Ut, vero sunt? Neque impedit expedita est magnam tempora, quo repellat voluptates id tenetur aliquid autem ratione temporibus nobis laborum deleniti illum. Itaque!
+        Quia in tempora quo quidem unde, explicabo neque totam ipsam et impedit nihil tempore, accusamus dolor aperiam aliquid beatae ducimus dolores minima, harum maiores nobis iste! Sed quia aliquid esse!
+        Eos quo autem quos officiis, nostrum rerum asperiores exercitationem ab aut veniam inventore dicta non natus soluta iste quod vero, sed quidem sunt? Repellendus qui excepturi, perferendis totam ex nobis.
+        Nam voluptatibus voluptates illo cumque recusandae voluptatem dignissimos. Ut, sit ullam error quia consectetur, debitis iste suscipit vitae, mollitia expedita assumenda asperiores eius illum voluptatem delectus dolorem? Deleniti, repellat laborum.
+    </p>
+</body>
+</html>
